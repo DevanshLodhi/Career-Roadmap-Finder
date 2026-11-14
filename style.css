@@ -1,0 +1,306 @@
+/* ===== COLORS and settings (change a color here, the whole site changes) ===== */
+:root {
+  --ink: #14213d;        /* dark navy: text, hero */
+  --ink-soft: #46506b;   /* softer text */
+  --teal: #0f9d8a;       /* main accent */
+  --teal-dark: #0b7a6b;
+  --amber: #f5a524;      /* call-to-action buttons */
+  --amber-dark: #d98c0e;
+  --mist: #f1f5f9;       /* light section background */
+  --paper: #ffffff;
+  --line: #dde4ee;
+  --radius: 16px;
+}
+
+/* ===== RESET ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.65;
+  font-size: 1.05rem;
+}
+
+a {
+  color: inherit;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--teal);
+  outline-offset: 3px;
+}
+
+/* ===== HEADER ===== */
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6rem 1.5rem;
+  padding: 0.9rem 1.25rem;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+}
+
+.logo img {
+  display: block;
+}
+
+.logo-name {
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 1.2rem;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--ink-soft);
+  padding: 0.25rem 0;
+  border-bottom: 2px solid transparent;
+}
+
+.nav a:hover,
+.nav a.active {
+  color: var(--ink);
+  border-bottom-color: var(--teal);
+}
+
+/* "Take the quiz" link in the navbar looks like a button */
+.nav .nav-cta {
+  background: var(--ink);
+  color: #fff;
+  padding: 0.45rem 1.1rem;
+  border-radius: 999px;
+  border-bottom: 0;
+}
+
+.nav .nav-cta:hover {
+  background: var(--teal-dark);
+  color: #fff;
+}
+
+/* ===== HERO ===== */
+.hero {
+  background: var(--ink);
+  color: #fff;
+  padding: 3.5rem 1.25rem 4rem;
+  /* soft glow in the corner */
+  background-image: radial-gradient(circle at 85% 15%, rgba(15, 157, 138, 0.35), transparent 45%);
+}
+
+.hero-inner {
+  max-width: 44rem;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 2.3rem;
+  line-height: 1.15;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.hero-sub {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #d3dbea;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.75rem;
+}
+
+.hero-note {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #aab6cf;
+}
+
+/* ===== BUTTONS ===== */
+.button {
+  display: inline-block;
+  padding: 0.8rem 1.7rem;
+  border-radius: 999px;
+  background: var(--amber);
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid var(--amber);
+}
+
+.button:hover {
+  background: var(--amber-dark);
+  border-color: var(--amber-dark);
+}
+
+.button-ghost {
+  background: transparent;
+  color: #fff;
+  border-color: #6b7a99;
+}
+
+.button-ghost:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #fff;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+  padding: 3.5rem 1.25rem;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.section-tint {
+  max-width: none;
+  background: var(--mist);
+}
+
+.section-tint > * {
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.section-intro {
+  margin: 0.4rem 0 1.75rem;
+  color: var(--ink-soft);
+}
+
+/* ===== CARDS ===== */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.4rem;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.35rem;
+}
+
+.card p {
+  color: var(--ink-soft);
+}
+
+/* The numbered circle on each "How it works" card */
+.step {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-bottom: 0.8rem;
+  border-radius: 50%;
+  background: var(--teal);
+  color: #fff;
+  font-weight: 800;
+}
+
+/* ===== CAREER CHIPS ===== */
+.chips {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.chips li {
+  padding: 0.5rem 1.1rem;
+  border: 1.5px solid var(--teal);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--teal-dark);
+  font-weight: 600;
+}
+
+.more {
+  margin-top: 1.5rem;
+  font-weight: 700;
+}
+
+.more a {
+  color: var(--teal-dark);
+}
+
+/* ===== CALL TO ACTION ===== */
+.cta {
+  text-align: center;
+}
+
+.cta p {
+  margin: 0.5rem 0 1.5rem;
+  color: var(--ink-soft);
+}
+
+/* ===== FOOTER ===== */
+.site-footer {
+  padding: 1.5rem 1.25rem;
+  background: var(--ink);
+  color: #c4cee2;
+  text-align: center;
+  font-size: 0.92rem;
+}
+
+/* hidden attribute should always win */
+[hidden] {
+  display: none !important;
+}
+
+/* ===== BIGGER SCREENS ===== */
+@media (min-width: 48rem) {
+  .site-header {
+    padding: 1rem 2rem;
+  }
+
+  .hero {
+    padding: 5.5rem 2rem 6rem;
+  }
+
+  .hero h1 {
+    font-size: 3.2rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
