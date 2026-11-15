@@ -1,0 +1,92 @@
+{
+  "questions": [
+    {
+      "text": "Which of these sounds most enjoyable to you?",
+      "options": [
+        { "text": "Designing how something looks and feels", "scores": { "uiux": 3, "web": 1, "app": 1 } },
+        { "text": "Solving tricky logic puzzles", "scores": { "swe": 3, "ai": 1, "cyber": 1 } },
+        { "text": "Finding patterns hidden in data", "scores": { "ai": 3, "swe": 1 } },
+        { "text": "Working out how things break, and how to protect them", "scores": { "cyber": 3, "cloud": 1 } }
+      ]
+    },
+    {
+      "text": "Which project would you most want to build?",
+      "options": [
+        { "text": "A website for a local shop", "scores": { "web": 3, "uiux": 1 } },
+        { "text": "A mobile app people can install", "scores": { "app": 3, "uiux": 1 } },
+        { "text": "A model that predicts exam marks", "scores": { "ai": 3, "swe": 1 } },
+        { "text": "A system that stays online even when thousands of people use it", "scores": { "cloud": 3, "swe": 1 } }
+      ]
+    },
+    {
+      "text": "How do you feel about maths?",
+      "options": [
+        { "text": "I enjoy it, even statistics and probability", "scores": { "ai": 3, "swe": 1 } },
+        { "text": "I prefer logic and reasoning over formulas", "scores": { "swe": 2, "cyber": 1, "cloud": 1 } },
+        { "text": "It is fine when I need it", "scores": { "web": 1, "app": 1, "cloud": 1 } },
+        { "text": "I would rather keep it minimal", "scores": { "uiux": 2, "web": 2, "app": 1 } }
+      ]
+    },
+    {
+      "text": "Which result would make you proudest?",
+      "options": [
+        { "text": "Seeing real people use something I made", "scores": { "web": 2, "app": 2, "uiux": 1 } },
+        { "text": "Keeping a big system running smoothly in the background", "scores": { "cloud": 3, "swe": 1 } },
+        { "text": "Catching a security hole before an attacker does", "scores": { "cyber": 3 } },
+        { "text": "Making something beautiful and easy to use", "scores": { "uiux": 3, "web": 1 } }
+      ]
+    },
+    {
+      "text": "How do you like to work?",
+      "options": [
+        { "text": "Alone, going deep on hard problems", "scores": { "swe": 2, "ai": 1, "cyber": 1 } },
+        { "text": "Creatively, trying lots of ideas", "scores": { "uiux": 2, "web": 1, "app": 1 } },
+        { "text": "Step by step, following a clear process", "scores": { "cloud": 2, "cyber": 1, "swe": 1 } },
+        { "text": "Building and testing things quickly", "scores": { "web": 2, "app": 2 } }
+      ]
+    },
+    {
+      "text": "How comfortable are you with the terminal (command line)?",
+      "options": [
+        { "text": "Very comfortable, I like it", "scores": { "cloud": 3, "cyber": 2, "swe": 1 } },
+        { "text": "I have used it a little", "scores": { "web": 1, "ai": 1, "swe": 1, "cloud": 1 } },
+        { "text": "I usually avoid it", "scores": { "uiux": 2, "app": 1, "web": 1 } }
+      ]
+    },
+    {
+      "text": "What do you already know?",
+      "options": [
+        { "text": "Mostly HTML and CSS", "scores": { "web": 2, "uiux": 1 } },
+        { "text": "Some programming in C, C++, Java or Python", "scores": { "swe": 2, "ai": 1, "app": 1, "cyber": 1, "cloud": 1 } },
+        { "text": "Python plus some data or maths", "scores": { "ai": 3 } },
+        { "text": "Nothing yet, I am just starting", "scores": { "uiux": 1, "web": 1 } }
+      ]
+    },
+    {
+      "text": "What matters most to you right now?",
+      "options": [
+        { "text": "Getting placed in campus drives", "scores": { "swe": 3, "web": 1, "cloud": 1 } },
+        { "text": "Building my own product or startup", "scores": { "web": 2, "app": 2, "uiux": 1 } },
+        { "text": "Working on AI and new technology", "scores": { "ai": 3 } },
+        { "text": "Becoming a specialist in a focused field", "scores": { "cyber": 2, "cloud": 2 } }
+      ]
+    },
+    {
+      "text": "How do you feel about design and visuals?",
+      "options": [
+        { "text": "I love it and notice small details", "scores": { "uiux": 3, "web": 1, "app": 1 } },
+        { "text": "It is fine, as long as things work well", "scores": { "web": 1, "app": 1 } },
+        { "text": "Not really my thing", "scores": { "swe": 1, "cyber": 1, "cloud": 1, "ai": 1 } }
+      ]
+    },
+    {
+      "text": "Which headline would you click first?",
+      "options": [
+        { "text": "How a huge website handles millions of visitors", "scores": { "cloud": 2, "web": 2 } },
+        { "text": "How hackers broke into a big company", "scores": { "cyber": 3 } },
+        { "text": "How music apps know which song you will like next", "scores": { "ai": 3, "app": 1 } },
+        { "text": "How a popular phone app was built from scratch", "scores": { "app": 3, "uiux": 1 } }
+      ]
+    }
+  ]
+}

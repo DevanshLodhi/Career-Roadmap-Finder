@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="image/logo.svg">
+  <title>Roadmap | Pathwise</title>
+  <meta name="description" content="A step-by-step career roadmap with skills, free resources and a progress checklist.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="logo" aria-label="Pathwise home">
+      <img src="image/logo.svg" alt="" width="38" height="38">
+      <span class="logo-name">Pathwise</span>
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="careers.html">Careers</a>
+      <a href="quiz.html" class="nav-cta">Take the quiz</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Shown when the career in the link is missing or wrong -->
+    <section id="roadmap-missing" class="section missing" hidden>
+      <h1>We could not find that career</h1>
+      <p>The link may be incorrect. Pick a career from the list, or take the quiz to get a match.</p>
+      <div class="result-actions">
+        <a href="careers.html" class="button">Browse careers</a>
+        <a href="quiz.html" class="button button-secondary">Take the quiz</a>
+      </div>
+    </section>
+
+    <!-- Shown when the career loads successfully -->
+    <div id="roadmap-main" hidden>
+
+      <!-- Top band: career name and facts -->
+      <section class="roadmap-head">
+        <div class="roadmap-head-inner">
+          <p class="roadmap-kicker">Your roadmap</p>
+          <h1 id="career-name"></h1>
+          <p id="career-tagline" class="roadmap-tagline"></p>
+          <p id="career-summary" class="roadmap-summary"></p>
+          <ul id="career-meta" class="roadmap-meta"></ul>
+        </div>
+      </section>
+
+      <div class="roadmap-body">
+
+        <!-- Safety note (only shown for careers that have one) -->
+        <p id="career-note" class="career-note" hidden></p>
+
+        <!-- Overall progress -->
+        <section class="progress-card" aria-labelledby="progress-heading">
+          <h2 id="progress-heading" class="progress-heading">Your progress</h2>
+          <p id="overall-text" class="overall-text" aria-live="polite"></p>
+          <div class="meter" aria-hidden="true"><div id="overall-bar" class="meter-fill"></div></div>
+          <p id="next-up" class="next-up"></p>
+          <p id="complete-msg" class="complete-msg" hidden>
+            Roadmap complete! Pick one of the project ideas below and build it to prove your skills.
+          </p>
+          <p id="storage-msg" class="quiz-message" role="alert"></p>
+          <button type="button" id="reset-btn" class="reset-btn">Reset progress</button>
+        </section>
+
+        <!-- The four stages -->
+        <section aria-labelledby="stages-heading">
+          <h2 id="stages-heading" class="roadmap-heading">Step by step</h2>
+          <p class="roadmap-hint">Open a stage, then tick each topic when you have learned it. Your progress is saved on this device.</p>
+          <div id="stages" class="stages"></div>
+        </section>
+
+        <!-- Tools and projects -->
+        <section class="roadmap-extra">
+          <div>
+            <h2 class="roadmap-heading">Tools you will use</h2>
+            <ul id="tools" class="chips"></ul>
+          </div>
+          <div>
+            <h2 class="roadmap-heading">Project ideas</h2>
+            <ul id="projects" class="project-list"></ul>
+          </div>
+        </section>
+
+        <div class="result-actions">
+          <a href="result.html" class="button button-secondary">Back to my results</a>
+          <a href="careers.html" class="button">Explore other careers</a>
+        </div>
+
+      </div>
+    </div>
+
+    <noscript>
+      <p class="quiz-message">This page needs JavaScript. Please turn it on in your browser.</p>
+    </noscript>
+  </main>
+
+  <footer class="site-footer">
+    <p>Pathwise is a free career guidance project for students. Always verify resources and job market details before making decisions.</p>
+  </footer>
+
+  <script src="roadmap.js"></script>
+</body>
+</html>

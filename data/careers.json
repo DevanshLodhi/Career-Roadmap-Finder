@@ -1,0 +1,351 @@
+[
+  {
+    "id": "web",
+    "name": "Web Development",
+    "tagline": "Build websites and web apps that people use every day.",
+    "summary": "Web developers create everything you see and use in a browser, from simple portfolio pages to full apps with logins and databases. It is one of the easiest fields to start in because you only need a laptop and a browser.",
+    "bestFor": ["Likes seeing quick, visible results", "Enjoys mixing logic with design", "Wants to build real projects early"],
+    "difficulty": "Beginner-friendly",
+    "timeEstimate": "Roughly 6 to 12 months of steady practice for entry-level skills (varies a lot by person)",
+    "tools": ["VS Code", "Git and GitHub", "Chrome DevTools", "Node.js"],
+    "projects": ["Personal portfolio website", "Weather app using an API", "Full-stack notes app with login"],
+    "stages": [
+      {
+        "title": "Stage 1: Web foundations",
+        "goal": "Build and style static, mobile-friendly pages.",
+        "topics": ["HTML structure and semantic tags", "CSS layout with Flexbox and Grid", "Responsive design and media queries", "Git and GitHub basics"],
+        "resources": [
+          { "name": "MDN Learn Web Development", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development" },
+          { "name": "freeCodeCamp", "url": "https://www.freecodecamp.org" },
+          { "name": "Pro Git book", "url": "https://git-scm.com/book" }
+        ]
+      },
+      {
+        "title": "Stage 2: JavaScript",
+        "goal": "Make pages interactive and talk to APIs.",
+        "topics": ["Variables, functions, arrays and objects", "DOM and events", "fetch, promises and async/await", "localStorage and JSON"],
+        "resources": [
+          { "name": "The Modern JavaScript Tutorial", "url": "https://javascript.info" },
+          { "name": "The Odin Project", "url": "https://www.theodinproject.com" }
+        ]
+      },
+      {
+        "title": "Stage 3: Frameworks and tools",
+        "goal": "Build bigger interfaces faster with React.",
+        "topics": ["npm and package management", "React components, props and state", "Routing and forms", "Reading documentation"],
+        "resources": [
+          { "name": "React documentation", "url": "https://react.dev" },
+          { "name": "roadmap.sh Frontend roadmap", "url": "https://roadmap.sh/frontend" }
+        ]
+      },
+      {
+        "title": "Stage 4: Backend and full projects",
+        "goal": "Build and deploy a complete app with a database.",
+        "topics": ["Node.js and Express", "REST APIs", "Databases (MongoDB or SQL)", "Authentication basics", "Deploying your project"],
+        "resources": [
+          { "name": "Node.js Learn", "url": "https://nodejs.org/en/learn" },
+          { "name": "roadmap.sh Backend roadmap", "url": "https://roadmap.sh/backend" },
+          { "name": "MongoDB University", "url": "https://learn.mongodb.com" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "app",
+    "name": "App Development",
+    "tagline": "Create apps that live on people's phones.",
+    "summary": "App developers build mobile apps for Android and iOS. You can start with one cross-platform tool like Flutter, or go deep on native Android with Kotlin.",
+    "bestFor": ["Loves using apps and wants to build one", "Likes working on user-friendly screens", "Wants to publish something people can install"],
+    "difficulty": "Moderate",
+    "timeEstimate": "Roughly 6 to 12 months of steady practice for entry-level skills (varies a lot by person)",
+    "tools": ["Android Studio or VS Code", "Flutter SDK or Kotlin", "Firebase", "Git"],
+    "projects": ["To-do app with saved tasks", "Expense tracker", "Weather app with live data", "Simple chat app"],
+    "stages": [
+      {
+        "title": "Stage 1: Programming basics",
+        "goal": "Get comfortable with one app language.",
+        "topics": ["Pick a path: Dart (Flutter) or Kotlin (Android)", "Variables, functions and collections", "Object-oriented programming", "Git basics"],
+        "resources": [
+          { "name": "Kotlin documentation", "url": "https://kotlinlang.org/docs/getting-started.html" },
+          { "name": "Dart language tour", "url": "https://dart.dev/language" }
+        ]
+      },
+      {
+        "title": "Stage 2: Building screens",
+        "goal": "Design and navigate between app screens.",
+        "topics": ["Layouts and widgets", "Navigation between screens", "Lists, forms and input", "State management basics"],
+        "resources": [
+          { "name": "Flutter documentation", "url": "https://docs.flutter.dev" },
+          { "name": "Android Developers courses", "url": "https://developer.android.com/courses" }
+        ]
+      },
+      {
+        "title": "Stage 3: Data and APIs",
+        "goal": "Make your app work with real data.",
+        "topics": ["REST APIs and JSON", "Local storage with SQLite", "Firebase authentication", "Firebase database"],
+        "resources": [
+          { "name": "Firebase documentation", "url": "https://firebase.google.com/docs" }
+        ]
+      },
+      {
+        "title": "Stage 4: Polish and publish",
+        "goal": "Ship a finished app.",
+        "topics": ["App architecture basics", "Testing and debugging", "Performance and battery use", "Publishing on the Play Store"],
+        "resources": [
+          { "name": "Android: distribute your app", "url": "https://developer.android.com/distribute" },
+          { "name": "Flutter: build and release for Android", "url": "https://docs.flutter.dev/deployment/android" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ai",
+    "name": "Data Science and AI",
+    "tagline": "Find patterns in data and teach computers to learn.",
+    "summary": "Data scientists and AI engineers turn data into answers and predictions. You will use Python, statistics, and machine learning to solve problems like recommendations, forecasting and image recognition.",
+    "bestFor": ["Enjoys maths and puzzles", "Curious about how AI works", "Likes finding stories hidden in numbers"],
+    "difficulty": "Challenging",
+    "timeEstimate": "Roughly 9 to 15 months of steady practice for entry-level skills (varies a lot by person)",
+    "tools": ["Python", "Jupyter Notebook or Google Colab", "Pandas and NumPy", "scikit-learn"],
+    "projects": ["Student marks predictor", "Spam message detector", "Movie recommender", "Image classifier"],
+    "stages": [
+      {
+        "title": "Stage 1: Python and maths",
+        "goal": "Write Python and understand the maths behind data.",
+        "topics": ["Python basics", "NumPy and Pandas", "Basic statistics and probability", "Linear algebra intuition"],
+        "resources": [
+          { "name": "Python official tutorial", "url": "https://docs.python.org/3/tutorial/" },
+          { "name": "Kaggle Learn: Python", "url": "https://www.kaggle.com/learn/python" },
+          { "name": "Kaggle Learn: Pandas", "url": "https://www.kaggle.com/learn/pandas" }
+        ]
+      },
+      {
+        "title": "Stage 2: Data analysis",
+        "goal": "Clean data and explain it with charts.",
+        "topics": ["Data cleaning", "Visualisation with Matplotlib and Seaborn", "SQL basics", "Exploratory data analysis"],
+        "resources": [
+          { "name": "Kaggle Learn: Data Visualization", "url": "https://www.kaggle.com/learn/data-visualization" },
+          { "name": "Kaggle Learn: Intro to SQL", "url": "https://www.kaggle.com/learn/intro-to-sql" }
+        ]
+      },
+      {
+        "title": "Stage 3: Machine learning",
+        "goal": "Train and evaluate your first models.",
+        "topics": ["Supervised vs unsupervised learning", "Regression and classification", "Model evaluation and overfitting", "scikit-learn"],
+        "resources": [
+          { "name": "Kaggle Learn: Intro to Machine Learning", "url": "https://www.kaggle.com/learn/intro-to-machine-learning" },
+          { "name": "scikit-learn tutorials", "url": "https://scikit-learn.org/stable/tutorial/index.html" }
+        ]
+      },
+      {
+        "title": "Stage 4: Deep learning and projects",
+        "goal": "Build a portfolio of real AI projects.",
+        "topics": ["Neural network basics", "PyTorch or TensorFlow", "NLP or computer vision project", "Using LLM APIs", "Kaggle competitions"],
+        "resources": [
+          { "name": "fast.ai Practical Deep Learning", "url": "https://course.fast.ai" },
+          { "name": "PyTorch tutorials", "url": "https://pytorch.org/tutorials" },
+          { "name": "Kaggle competitions", "url": "https://www.kaggle.com/competitions" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cyber",
+    "name": "Cybersecurity",
+    "tagline": "Protect systems, data and people from attacks.",
+    "summary": "Cybersecurity professionals find weaknesses and defend against attacks. Paths include penetration testing, security operations (SOC) and cloud security. You must only practise on systems you own or have permission to test.",
+    "bestFor": ["Thinks like a detective", "Enjoys understanding how things break", "Patient with detail-heavy work"],
+    "difficulty": "Challenging",
+    "timeEstimate": "Roughly 9 to 15 months of steady practice for entry-level skills (varies a lot by person)",
+    "note": "Practise only in legal environments such as labs, CTFs and your own machines. Never test real websites or networks without written permission.",
+    "tools": ["Linux (Ubuntu or Kali)", "Wireshark", "Nmap", "Burp Suite", "Python"],
+    "projects": ["Home lab setup", "CTF challenge write-ups", "Password strength checker", "Network traffic analysis report"],
+    "stages": [
+      {
+        "title": "Stage 1: IT and networking basics",
+        "goal": "Understand how computers and the internet work.",
+        "topics": ["How the internet works", "TCP/IP, DNS and HTTP", "Linux command line", "Windows basics"],
+        "resources": [
+          { "name": "Linux Journey", "url": "https://linuxjourney.com" },
+          { "name": "TryHackMe", "url": "https://tryhackme.com" },
+          { "name": "roadmap.sh Cyber Security roadmap", "url": "https://roadmap.sh/cyber-security" }
+        ]
+      },
+      {
+        "title": "Stage 2: Security fundamentals",
+        "goal": "Learn the main threats and defences.",
+        "topics": ["CIA triad", "Cryptography basics", "Authentication and passwords", "Phishing and malware", "OWASP Top 10"],
+        "resources": [
+          { "name": "OWASP Top Ten", "url": "https://owasp.org/www-project-top-ten/" },
+          { "name": "PortSwigger Web Security Academy", "url": "https://portswigger.net/web-security" }
+        ]
+      },
+      {
+        "title": "Stage 3: Hands-on practice",
+        "goal": "Practise safely in labs and CTF games.",
+        "topics": ["Capture the Flag (CTF) challenges", "Wireshark and Nmap", "Burp Suite basics", "Writing down what you learn"],
+        "resources": [
+          { "name": "OverTheWire wargames", "url": "https://overthewire.org/wargames" },
+          { "name": "picoCTF", "url": "https://picoctf.org" }
+        ]
+      },
+      {
+        "title": "Stage 4: Specialise",
+        "goal": "Pick a direction and build proof of skills.",
+        "topics": ["Choose: pentesting, SOC analyst or cloud security", "Scripting with Python and Bash", "Entry-level certifications", "Ethical bug bounty basics"],
+        "resources": [
+          { "name": "Hacker101", "url": "https://www.hackerone.com/hackers/hacker101" },
+          { "name": "roadmap.sh Cyber Security roadmap", "url": "https://roadmap.sh/cyber-security" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cloud",
+    "name": "Cloud and DevOps",
+    "tagline": "Run apps reliably on the internet at any scale.",
+    "summary": "Cloud and DevOps engineers deploy, automate and monitor software so it stays online. You will work with servers, containers and pipelines that take code from a laptop to the world.",
+    "bestFor": ["Likes automating boring tasks", "Interested in how big apps run", "Comfortable with the command line"],
+    "difficulty": "Moderate to challenging",
+    "timeEstimate": "Roughly 9 to 15 months of steady practice for entry-level skills (varies a lot by person)",
+    "tools": ["Linux", "Docker", "GitHub Actions", "Terraform", "AWS, Azure or Google Cloud free tier"],
+    "projects": ["Host a static site on the cloud", "Dockerise a web app", "Build a CI/CD pipeline"],
+    "stages": [
+      {
+        "title": "Stage 1: Linux and networking",
+        "goal": "Be comfortable working on servers.",
+        "topics": ["Linux command line", "Shell scripting", "Networking basics", "Git"],
+        "resources": [
+          { "name": "Linux Journey", "url": "https://linuxjourney.com" },
+          { "name": "roadmap.sh DevOps roadmap", "url": "https://roadmap.sh/devops" },
+          { "name": "Pro Git book", "url": "https://git-scm.com/book" }
+        ]
+      },
+      {
+        "title": "Stage 2: Cloud fundamentals",
+        "goal": "Understand core cloud services on one provider.",
+        "topics": ["Compute, storage and networking", "Identity and access (IAM)", "Pricing and free tiers", "Pick one: AWS, Azure or Google Cloud"],
+        "resources": [
+          { "name": "AWS Skill Builder", "url": "https://skillbuilder.aws" },
+          { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/training" },
+          { "name": "Google Cloud Skills Boost", "url": "https://www.cloudskillsboost.google" }
+        ]
+      },
+      {
+        "title": "Stage 3: Containers and CI/CD",
+        "goal": "Automate building and shipping an app.",
+        "topics": ["Docker images and containers", "GitHub Actions pipelines", "Kubernetes basics"],
+        "resources": [
+          { "name": "Docker: Get started", "url": "https://docs.docker.com/get-started/" },
+          { "name": "GitHub Actions documentation", "url": "https://docs.github.com/actions" },
+          { "name": "Kubernetes tutorials", "url": "https://kubernetes.io/docs/tutorials/" }
+        ]
+      },
+      {
+        "title": "Stage 4: Infrastructure as code and monitoring",
+        "goal": "Manage infrastructure with code and keep it healthy.",
+        "topics": ["Terraform basics", "Logging and monitoring", "Deploy a full project end to end", "Entry-level cloud certification"],
+        "resources": [
+          { "name": "Terraform tutorials", "url": "https://developer.hashicorp.com/terraform/tutorials" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "uiux",
+    "name": "UI/UX Design",
+    "tagline": "Design apps and websites that feel simple to use.",
+    "summary": "UI/UX designers decide how a product looks and how it works for the user. You will research real people, sketch ideas, build prototypes and test them, with very little coding needed.",
+    "bestFor": ["Creative and notices small visual details", "Cares about making things easy for people", "Prefers design over heavy coding"],
+    "difficulty": "Beginner-friendly",
+    "timeEstimate": "Roughly 4 to 9 months of steady practice for entry-level skills (varies a lot by person)",
+    "tools": ["Figma", "FigJam", "A notebook for sketching"],
+    "projects": ["Redesign your college website", "Mobile app prototype", "Small design system"],
+    "stages": [
+      {
+        "title": "Stage 1: Design basics",
+        "goal": "Make clean, readable layouts.",
+        "topics": ["Layout and spacing", "Typography", "Colour and contrast", "Visual hierarchy"],
+        "resources": [
+          { "name": "Laws of UX", "url": "https://lawsofux.com" },
+          { "name": "Interaction Design Foundation", "url": "https://www.interaction-design.org/literature" }
+        ]
+      },
+      {
+        "title": "Stage 2: UX research",
+        "goal": "Understand users before designing.",
+        "topics": ["User interviews and surveys", "Personas and user flows", "Wireframes", "Usability testing"],
+        "resources": [
+          { "name": "Nielsen Norman Group articles", "url": "https://www.nngroup.com/articles/" }
+        ]
+      },
+      {
+        "title": "Stage 3: Tools and prototyping",
+        "goal": "Turn ideas into clickable prototypes.",
+        "topics": ["Figma frames and auto layout", "Components and design systems", "Interactive prototypes", "Accessibility basics"],
+        "resources": [
+          { "name": "Figma Learn", "url": "https://help.figma.com/hc/en-us" },
+          { "name": "Material Design 3", "url": "https://m3.material.io" },
+          { "name": "WebAIM accessibility resources", "url": "https://webaim.org" }
+        ]
+      },
+      {
+        "title": "Stage 4: Portfolio",
+        "goal": "Show your thinking, not just screens.",
+        "topics": ["2 to 3 detailed case studies", "Redesign an existing app", "Hand-off to developers", "Basic HTML and CSS"],
+        "resources": [
+          { "name": "Behance", "url": "https://www.behance.net" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "swe",
+    "name": "Software Engineering",
+    "tagline": "Master problem solving and core computer science.",
+    "summary": "This path focuses on data structures, algorithms and core CS subjects, the base for most software jobs and campus placements. It pairs well with any other career on this list.",
+    "bestFor": ["Enjoys logic and problem solving", "Preparing for placements and interviews", "Wants strong fundamentals before specialising"],
+    "difficulty": "Moderate",
+    "timeEstimate": "Roughly 6 to 12 months of steady practice for interview-ready skills (varies a lot by person)",
+    "tools": ["VS Code", "Git", "LeetCode", "One main language (C++, Java or Python)"],
+    "projects": ["Sorting algorithm visualiser", "Library management system", "URL shortener"],
+    "stages": [
+      {
+        "title": "Stage 1: Programming and logic",
+        "goal": "Think in code with one language.",
+        "topics": ["Pick one language: C++, Java or Python", "Loops, functions and recursion", "Object-oriented programming", "Time and space complexity (Big-O)"],
+        "resources": [
+          { "name": "Harvard CS50x", "url": "https://cs50.harvard.edu/x" },
+          { "name": "GeeksforGeeks", "url": "https://www.geeksforgeeks.org" }
+        ]
+      },
+      {
+        "title": "Stage 2: Data structures",
+        "goal": "Know which structure fits which problem.",
+        "topics": ["Arrays and strings", "Linked lists, stacks and queues", "Trees and graphs", "Hashing"],
+        "resources": [
+          { "name": "VisuAlgo", "url": "https://visualgo.net" },
+          { "name": "NeetCode roadmap", "url": "https://neetcode.io/roadmap" }
+        ]
+      },
+      {
+        "title": "Stage 3: Algorithms",
+        "goal": "Solve problems under time pressure.",
+        "topics": ["Sorting and searching", "Recursion and backtracking", "Greedy algorithms", "Dynamic programming", "BFS, DFS and Dijkstra"],
+        "resources": [
+          { "name": "LeetCode", "url": "https://leetcode.com" },
+          { "name": "CP-Algorithms", "url": "https://cp-algorithms.com" }
+        ]
+      },
+      {
+        "title": "Stage 4: Core CS and interview prep",
+        "goal": "Be ready for technical interviews.",
+        "topics": ["Operating systems", "DBMS and SQL", "Computer networks", "System design basics", "Resume, projects and mock interviews"],
+        "resources": [
+          { "name": "roadmap.sh Computer Science roadmap", "url": "https://roadmap.sh/computer-science" },
+          { "name": "GeeksforGeeks interview preparation", "url": "https://www.geeksforgeeks.org" }
+        ]
+      }
+    ]
+  }
+]

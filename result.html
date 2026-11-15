@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="image/logo.svg">
+  <title>Your results | Pathwise</title>
+  <meta name="description" content="See your top tech career matches and open a personalised roadmap.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="logo" aria-label="Pathwise home">
+      <img src="image/logo.svg" alt="" width="38" height="38">
+      <span class="logo-name">Pathwise</span>
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="careers.html">Careers</a>
+      <a href="quiz.html" class="nav-cta">Take the quiz</a>
+    </nav>
+  </header>
+
+  <main class="result-page">
+    <div class="result">
+
+      <!-- Shown when there is a saved result -->
+      <div id="result-top" hidden>
+        <h1 class="result-title">Your top career matches</h1>
+        <p class="result-intro">
+          These scores show how closely your answers fit each career.
+          Treat them as a starting point, not a final verdict.
+        </p>
+        <p id="result-date" class="result-date"></p>
+      </div>
+
+      <!-- JavaScript fills the result cards here -->
+      <div id="result-content"></div>
+
+      <!-- Shown when the quiz has not been taken yet -->
+      <div id="no-result" class="no-result" hidden>
+        <h1 class="result-title">No results yet</h1>
+        <p>Take the short quiz first, and your matches will appear here.</p>
+        <a href="quiz.html" class="button">Take the quiz</a>
+      </div>
+
+      <noscript>
+        <p class="quiz-message">This page needs JavaScript. Please turn it on in your browser.</p>
+      </noscript>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Pathwise is a free career guidance project for students. Always verify resources and job market details before making decisions.</p>
+  </footer>
+
+  <script src="result.js"></script>
+</body>
+</html>

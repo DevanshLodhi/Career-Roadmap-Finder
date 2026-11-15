@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <title>Take the quiz | Pathwise</title>
+  <meta name="description" content="Answer a short quiz to find the tech career that fits you best.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="logo" aria-label="Pathwise home">
+      <img src="image/logo.svg" alt="" width="38" height="38">
+      <span class="logo-name">Pathwise</span>
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="careers.html">Careers</a>
+      <a href="quiz.html" class="nav-cta">Take the quiz</a>
+    </nav>
+  </header>
+
+  <main class="quiz-page">
+    <section class="quiz" aria-labelledby="quiz-title">
+
+      <h1 id="quiz-title" class="quiz-title">Find your career match</h1>
+
+      <!-- Progress bar -->
+      <div class="progress-wrap">
+        <p id="progress-text" class="progress-text" aria-live="polite"></p>
+        <div class="progress" role="progressbar" aria-label="Quiz progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div id="progress-bar" class="progress-bar"></div>
+        </div>
+      </div>
+
+      <!-- JavaScript puts the question and options here -->
+      <fieldset id="question-box" class="question-box">
+        <legend id="question-text" class="question-text" tabindex="-1">Loading your questions...</legend>
+        <div id="options" class="options"></div>
+      </fieldset>
+
+      <!-- Message if something goes wrong -->
+      <p id="quiz-message" class="quiz-message" role="alert" aria-live="assertive"></p>
+
+      <div class="quiz-actions">
+        <button type="button" id="back-btn" class="button button-secondary" disabled>Back</button>
+        <button type="button" id="next-btn" class="button">Next</button>
+      </div>
+
+      <noscript>
+        <p class="quiz-message">This quiz needs JavaScript. Please turn it on in your browser.</p>
+      </noscript>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Pathwise is a free career guidance project for students. Always verify resources and job market details before making decisions.</p>
+  </footer>
+
+  <script src="quiz.js"></script>
+</body>
+</html>

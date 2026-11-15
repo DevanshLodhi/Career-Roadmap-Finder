@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="image/logo.svg">
+  <title>All careers | Pathwise</title>
+  <meta name="description" content="Browse tech careers, compare difficulty, and open a step-by-step roadmap for each one.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="logo" aria-label="Pathwise home">
+      <img src="image/logo.svg" alt="" width="38" height="38">
+      <span class="logo-name">Pathwise</span>
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="careers.html" class="active">Careers</a>
+      <a href="quiz.html" class="nav-cta">Take the quiz</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="careers-head">
+      <div class="careers-head-inner">
+        <h1>Explore tech careers</h1>
+        <p>Search, compare and open a step-by-step roadmap for any career. Not sure where to start? <a href="quiz.html">Take the quiz</a>.</p>
+      </div>
+    </section>
+
+    <section class="section careers-section">
+
+      <!-- Search and filter -->
+      <div class="filter-bar">
+        <div class="field">
+          <label for="career-search">Search careers</label>
+          <input type="search" id="career-search" placeholder="Try: design, data, security, apps" autocomplete="off">
+        </div>
+
+        <div class="field">
+          <span id="difficulty-label" class="field-label">Difficulty</span>
+          <!-- JavaScript adds the filter buttons here -->
+          <div id="difficulty-chips" class="filter-chips" role="group" aria-labelledby="difficulty-label"></div>
+        </div>
+      </div>
+
+      <p id="career-count" class="result-count" aria-live="polite"></p>
+
+      <!-- JavaScript adds the career cards here -->
+      <div id="career-grid" class="career-grid"></div>
+
+      <p id="career-empty" class="empty-box" hidden>
+        No careers match your search. Try a different word, or choose All.
+      </p>
+
+      <noscript>
+        <p class="quiz-message">This page needs JavaScript. Please turn it on in your browser.</p>
+      </noscript>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Pathwise is a free career guidance project for students. Always verify resources and job market details before making decisions.</p>
+  </footer>
+
+  <script src="careers.js"></script>
+</body>
+</html>
